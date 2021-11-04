@@ -12,7 +12,7 @@ public class RandomGenerator implements IRandomValueGenerator {
 	
 	//returns random integer
 	public int getRandom() {
-		random = rand.nextInt();
+		random = rand.nextInt(101);
 		return random;
 	}
 	
